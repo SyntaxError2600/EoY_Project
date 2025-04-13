@@ -8,7 +8,7 @@ Recommendation Engine: Model users, products, views, purchases, and reviews as n
 Movie Data Source
 * MovieLens:: GroupLens Research has collected and made available rating datasets from their movie web site: https://grouplens.org/datasets/movielens/
 
-load_data.py: based on the supplied connection details, will load movies, genres, ratings and create the required relationships need to supply the movies_api. 
+load_data.py: based on the supplied connection details, will load movies, genres, ratings and create the required relationships need to supply the movies_api.  
 movies_api.py: simple HTTP API that allow the user to serach for a movie by name or retrieve recommendations based on a movie's id. 
 * Search Movie by Name: http://127.0.0.1:5000/search_movie?name=Toy%20Story
 * Get recommendations by Movie ID: http://127.0.0.1:5000/recommend_movies?movieId=1
